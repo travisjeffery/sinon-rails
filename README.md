@@ -16,13 +16,15 @@ Add this line to your test manifest file:
 
     //=require sinon
 
-Or directly include at /assets/sinon.js
+Or directly include at `/assets/sinon.js`
 
 ## Usage
 
 Read about sinon.js [here](http://sinonjs.org/).
 
 ## Contributing
+
+sinon-rails maintained by [Travis Jeffery](http://github.com/travisjeffery)
 
 1. Fork it
 2. Create your feature branch (`git checkout -b my-new-feature`)
