@@ -1,6 +1,6 @@
-# Sinon::Rails
+# Sinon.js for Rails
 
-TODO: Write a gem description
+sinon.js via asset pipeline
 
 ## Installation
 
@@ -12,13 +12,15 @@ And then execute:
 
     $ bundle
 
-Or install it yourself as:
+Add this line to your test manifest file:
 
-    $ gem install sinon-rails
+    //=require sinon
+
+Or directly include at /assets/sinon.js
 
 ## Usage
 
-TODO: Write usage instructions here
+Read about sinon.js [here](http://sinonjs.org/).
 
 ## Contributing
 
