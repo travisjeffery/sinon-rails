@@ -11,7 +11,7 @@ Gem::Specification.new do |gem|
   gem.test_files    = `git ls-files -- {test,spec,features}/*`.split("\n")
   gem.name          = "sinon-rails"
   gem.require_paths = ["lib"]
-  gem.version       = "1.4.2"
+  gem.version       = Sinon::Rails::VERSION
 
   gem.add_dependency 'railties', '>= 3.1'
 end
