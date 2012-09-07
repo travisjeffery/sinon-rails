@@ -1,3 +1,5 @@
+require 'rails'
+
 module Sinon
   module Rails
     class Engine < ::Rails::Engine
