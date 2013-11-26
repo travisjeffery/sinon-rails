@@ -6,8 +6,10 @@ sinon.js via asset pipeline
 
 Add this line to your application's Gemfile:
 
-    gem 'sinon-rails'
-
+    group :test, :development do    
+        gem 'sinon-rails'
+    end
+    
 And then execute:
 
     $ bundle
